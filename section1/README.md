@@ -1,6 +1,6 @@
 ## 섹션 1. HTML Basics
 
-### '''<html lang=“en”>'''
+### /<html lang=“en”>
 
 이 문서가 html로 작성됐음을 알림.
 html 문서의 시작과 끝을 알리는 태그. lang=문서의 언어
