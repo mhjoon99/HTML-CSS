@@ -4,7 +4,7 @@
 
 ####first-child와 first-of-type 비교
 
-'''html
+```html
 <style>
 
         .parent p:first-child {
@@ -30,7 +30,7 @@
         <p>C</p>
 
     </div>
-'''
+```
 
 First-child :  <div class=“parent”의 두 번째 자식 => 그래서 처음 자식이 아니라 적용 x
 
