@@ -1,7 +1,7 @@
 ## CSS 적용 방법
 
 1. 인라인 스타일 : 인라인 태그 안에 style 넣기
-    ex) &lt;p style=“font-size:20px;”&gt;안녕하세요&lt;/p&gt;
+    ex) `<p style=“font-size:20px;>안녕하세요</p>`
 
 내부 스타일 시트 : html 파일에 "&lt;style&gt;" 태그 넣기
 
