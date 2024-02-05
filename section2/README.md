@@ -1,9 +1,9 @@
 ## CSS 적용 방법
 
 1. 인라인 스타일 : 인라인 태그 안에 style 넣기
-'ex) <p style=“font-size:20px;”>안녕하세요</p>'
+    ex) &lt;p style=“font-size:20px;”&gt;안녕하세요&lt;/p&gt;
 
-내부 스타일 시트 : html 파일에 <style> 태그 넣기
+내부 스타일 시트 : html 파일에 "&lt;style&gt;" 태그 넣기
 
 외부 스타일 시트 : .css 파일을 따로 만들어서 html에 적용하기
 
