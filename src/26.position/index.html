@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .box-container {
+            width: 200px;
+            height: 200px;
+            border: 2px solid #669966;
+        }
+
+        .box-container div {
+            padding: 10px;
+            border: 1px solid green;
+            background-color: #ffdddd;
+        }
+
+        #static-box {
+            position: static;
+            top: 20px;
+            left: 30px;
+        }
+
+        #relative-box {
+            position: relative;
+            top: 20px;
+            left: 30px;
+        }
+
+        #absolute-box {
+            position: absolute;
+            top: 20px;
+            right: 150px;
+        }
+        
+        #fixed-box {
+            position: fixed;
+            top: 20px;
+            right: 30px;
+        }
+
+        #relative-box-1 {
+            position: relative;
+            height: 80px;
+            margin-top: 70px;
+            border: 3px solid #669966;
+            width: 200px;
+        }
+
+        #absolute-box-1 {
+            position: absolute;
+            top: 40px;
+            left: 30px;
+            border: 2px solid #ffdddd;
+        }
+
+        #sticky {
+            position: sticky;
+            top: 100px;
+            padding: 5px;
+            background-color: #669966;
+            border: 2px solid #ffdddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="box-container">
+        <div id="static-box">static</div>
+        <div id="relative-box">relative</div>
+        <div id="absolute-box">absolute</div>
+        <div id="fixed-box">fixed</div>
+    </div>
+    <div id="relative-box-1">
+        relative
+        <div id="absolute-box-1">
+            absolute
+        </div>
+    </div>
+    <div id="sticky">I am sticky!</div>
+    <div style="padding-bottom: 2000px;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, ipsam officia repellendus id perferendis dignissimos inventore, iure nulla nemo omnis saepe expedita! Hic voluptate quod iure veniam quasi repellat fugit.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat placeat obcaecati adipisci deserunt illo voluptates in esse iusto exercitationem ad, debitis voluptas sed ea nulla minima ut expedita necessitatibus nisi!
+    </div>
+</body>
+</html>
